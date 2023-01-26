@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Rajkush02's Porfolio</title>
+		<link rel="stylesheet" href="style.css" class="stylesheet" />
+		<script
+			src="https://kit.fontawesome.com/8acb0e4223.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body>
+		<div id="header">
+			<div class="container">
+				<nav>
+					<h1>
+						<span><bold>R</bold></span
+						><bold>aj Kushwaha</bold>
+					</h1>
+					<ul id="sidemenu">
+						<li><a href="#header">Home</a></li>
+						<li><a href="#about">About me</a></li>
+						<li><a href="#porfolio">Porfolio</a></li>
+						<li><a href="#services">Services</a></li>
+						<li><a href="#contact">Contact me</a></li>
+						<i class="fa-regular fa-square-xmark" onclick="closemenu()"></i>
+					</ul>
+					<i class="fa-solid fa-bars" onclick="openmenu()"></i>
+				</nav>
+				<header class="header-text">
+					<p>Website Designer</p>
+					<h1>I'am <br> <span> Raj Kushwaha</span><br/>From India</h1>
+				</header>
+			</div>
+		</div>
+		<!--about-->
+
+		<div id="about">
+			<div class="container">
+				<div class="row">
+					<div class="about-col-1">
+						<img src="images/ra1.jpg" />
+					</div>
+					<div class="about-col-2">
+						<h1 class="sub-title">About me</h1>
+						<p>
+							"Introduce Raj Kushwaha, a software engineer with a wealth of experience and a proven track record of delivering innovative and efficient solutions. Raj's expertise in software development, paired with his ability to understand the needs of his clients, makes him a valuable asset in the industry. He is well-versed in various programming languages and technologies, and his skills in developing robust and user-friendly software are second to none. Whether you're looking for a software application to automate business processes or a custom solution to meet unique needs, Raj is the go-to choice for all your software development needs."
+						</p>
+						<div class="tab-titles">
+							<p class="tab-links active-link" onclick="opentab('skills')">
+								Skills
+							</p>
+							<p class="tab-links" onclick="opentab('experince')">Experince</p>
+							<p class="tab-links" onclick="opentab('education')">Education</p>
+						</div>
+						<div class="tab-contents active-tab" id="skills">
+							<ul>
+								<li>
+									<span>Website Desing</span><br />using Html+Css+JavaScripts
+								</li>
+								<li><span>Single-page-application</span><br />using React</li>
+								<li><span>Python</span><br />programing & coding</li>
+								<li><span>DataStructure</span><br />& Algorithm</li>
+							</ul>
+						</div>
+						<div class="tab-contents" id="experince">
+							<ul>
+								<li>
+									<span>Website Desing</span><br />using Html+Css+JavaScripts
+								</li>
+								<li>
+									<span>Single-page-application</span><br />using React<br />1
+									year
+								</li>
+								<li>
+									<span>Python</span><br />programing & coding<br />4 years
+								</li>
+								<li><span>DataStructure</span><br />& Algorithm<br />2 year</li>
+							</ul>
+						</div>
+						<div class="tab-contents" id="education">
+							<ul>
+								<li>
+									<span>Graduation</span><br />Rameshwar Institute of Technology
+									& Management<br />B.tech[CSE] (2020-2024)
+								</li>
+								<li>
+									<span>Intermediate</span><br />RPIC School<br />(2019-2020)
+								</li>
+								<li>
+									<span>High School</span><br />St.Joseph's senior secondary school<br />(2017-2018) coding
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-------------------------SERVICES------------------------------>
+		<div id="services">
+			<div class="container">
+				<h1 class="sub-title">My Services</h1>
+				<div class="services-list">
+					<div>
+						<i class="fa-solid fa-code"></i>
+						<h2>Web Desing</h2>
+						<p>
+							"Introduce Raj Kushwaha, a skilled and experienced web designer. Raj's passion for design and attention to detail are evident in the visually stunning websites he creates. He has a strong understanding of the latest design trends and technologies and is able to deliver high-quality, responsive and user-friendly designs. Raj's ability to understand the needs of his clients and deliver solutions that meet their requirements has made him a valuable asset in the industry. Whether you're looking to build a new website or revamp an existing one, Raj is the perfect choice for all your web design needs."
+						</p>
+						<a href="#">Learn more</a>
+					</div>
+					<div>
+						<i class="fa-solid fa-crop"></i>
+						<h2>Coder</h2>
+						<p>
+							"Introduce Raj Kushwaha, a talented coder with a wealth of experience and a passion for creating efficient and effective solutions. Raj's expertise in coding is evident in the quality of the projects he has worked on. He is well-versed in multiple programming languages, frameworks and technologies and is able to develop robust, scalable and maintainable code. Raj's ability to understand the needs of his clients and deliver solutions that meet their requirements has made him a valuable asset in the industry. Whether you're looking for a developer to build a new application, optimize an existing one or troubleshoot and fix bugs, Raj is the go-to choice for all your coding needs."
+						</p>
+						<a href="#">Learn more</a>
+					</div>
+					<div>
+						<i class="fa-brands fa-app-store"></i>
+						<h2>App design using django</h2>
+						<p>
+							"Introduce Raj Kushwaha, a talented coder with a wealth of experience and a passion for creating efficient and effective solutions. Raj's expertise in coding is evident in the quality of the projects he has worked on. He is well-versed in multiple programming languages, frameworks and technologies and is able to develop robust, scalable and maintainable code. Raj's ability to understand the needs of his clients and deliver solutions that meet their requirements has made him a valuable asset in the industry. Whether you're looking for a developer to build a new application, optimize an existing one or troubleshoot and fix bugs, Raj is the go-to choice for all your coding needs."
+						</p>
+						<a href="#">Learn more</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!----------------------PORTFOLIO----->
+		<div id="porfolio">
+			<div class="container">
+				<h1 class="sub-title">My Work</h1>
+				<div class="work-list">
+					<div class="work">
+						<img src="images/work1.png" />
+						<div class="layer">
+							<h3>Web Site Desing</h3>
+							<p>
+								"Introduce Raj Kushwaha, a talented and experienced web designer with a passion for creating visually stunning and user-friendly websites. Raj's expertise in web design is evident in the quality of the projects he has worked on. He has a strong understanding of the latest design trends and technologies, and is able to deliver high-quality, responsive and effective designs. Raj's ability to understand the needs of his clients and deliver solutions that meet their requirements has made him a valuable asset in the industry. Whether you're looking to build a new website or revamp an existing one, Raj is the go-to choice for all your web design needs."
+
+
+
+
+							</p>
+							<a href="#"
+								><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i
+							></a>
+						</div>
+					</div>
+
+					<div class="work">
+						<img src="images/work2.png" />
+						<div class="layer">
+							<h3>Coding</h3>
+							<p>
+								"Introduce Raj Kushwaha, a talented coder with a wealth of experience and a passion for creating efficient and effective solutions. Raj's expertise in coding is evident in the quality of the projects he has worked on. He is well-versed in multiple programming languages, frameworks and technologies and is able to develop robust, scalable and maintainable code. Raj's ability to understand the needs of his clients and deliver solutions that meet their requirements has made him a valuable asset in the industry. Whether you're looking for a developer to build a new application, optimize an existing one or troubleshoot and fix bugs, Raj is the go-to choice for all your coding needs."
+							</p>
+							<a href="#"
+								><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i
+							></a>
+						</div>
+					</div>
+
+					<div class="work">
+						<img src="images/work3.jpg" />
+						<div class="layer">
+							<h3>App</h3>
+							<p>
+								"Introduce Raj Kushwaha, a talented coder with a wealth of experience and a passion for creating efficient and effective solutions. Raj's expertise in coding is evident in the quality of the projects he has worked on. He is well-versed in multiple programming languages, frameworks and technologies and is able to develop robust, scalable and maintainable code. Raj's ability to understand the needs of his clients and deliver solutions that meet their requirements has made him a valuable asset in the industry. Whether you're looking for a developer to build a new application, optimize an existing one or troubleshoot and fix bugs, Raj is the go-to choice for all your coding needs."
+							</p>
+							<a href="#"
+								><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i
+							></a>
+						</div>
+					</div>
+					<a href="#" class="btn">See More</a>
+				</div>
+			</div>
+		</div>
+		<!----------CONTACT-->
+		<div id="contact">
+			<div class="container">
+				<div class="row">
+					<div class="contact-left">
+						<h1 class="sub-title">Contact Me</h1>
+						<p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+						<p><i class="fa-solid fa-phone"></i>012345678</p>
+						<div class="social-icon">
+							<a
+								href="https://www.linkedin.com/in/raj-kushwaha-7a36a1209"
+								><i class="fa-brands fa-linkedin"></i
+							></a>
+							<a href="https://github.com/Rajkush02"
+								><i class="fa-brands fa-square-github"></i
+							></a>
+							<a href="https://twitter.com/RajKush92159361?t=EijloW66AAyHcrYBFooDTQ&s=09"
+								><i class="fa-brands fa-twitter"></i
+							></a>
+							<a href="https://www.instagram.com/its_rajkush_02/"
+								><i class="fa-brands fa-instagram"></i
+							></a>
+						</div>
+						<a href="Raj's Resume (2).pdf" download class="btn btn2">Download CV</a>
+					</div>
+					<div class="contact-right">
+						<form name="submit-to-google-sheet">
+							<input type="text" name="Name" placeholder="Your Name" required />
+							<input
+								type="email"
+								name="Email"
+								placeholder="Your Email"
+								required
+							/>
+							<textarea
+								name="Message"
+								rows="6"
+								placeholder="Your Message"
+							></textarea>
+							<button type="submit" class="btn btn2">submit</button>
+						</form>
+						<span id="msg"></span>
+					</div>
+				</div>
+			</div>
+			<div class="copyright">
+				<p>All copyright © reserved by Raj Kushwaha</p>
+			</div>
+		</div>
+		<script>
+			var tablinks = document.getElementsByClassName("tab-links");
+			var tabcontents = document.getElementsByClassName("tab-contents");
+			function opentab(tabname) {
+				for (tablink of tablinks) {
+					tablink.classList.remove("active-link");
+				}
+				for (tabcontent of tabcontents) {
+					tabcontent.classList.remove("active-tab");
+				}
+				event.currentTarget.classList.add("active-link");
+				document.getElementById(tabname).classList.add("active-tab");
+			}
+		</script>
+
+		<script>
+			var sidemenu = document.getElementById("sidemenu");
+
+			function openmenu() {
+				sidemenu.style.right = "0";
+			}
+
+			function closemenu() {
+				sidemenu.style.right = "-200px";
+			}
+		</script>
+
+		<script>
+			const scriptURL =
+				"https://script.google.com/macros/s/AKfycbwBQwsBz19-rThPGAdQxfz5AguXtyGHW52MDsvKobT0JlDTcd4ZoHKTw9rPCHpOKbWX/exec";
+			const form = document.forms["submit-to-google-sheet"];
+			const msg = document.getElementById("msg");
+
+			form.addEventListener("submit", (e) => {
+				e.preventDefault();
+				fetch(scriptURL, { method: "POST", body: new FormData(form) })
+					.then((response) => {
+						msg.innerHTML ="Message sent successfully"
+						setTimeout(function(){
+							msg.innerHTML= ""
+						},5000)
+						form.reset()
+					})
+					.catch((error) => console.error("Error!", error.message));
+			});
+		</script>
+	</body>
+</html>
